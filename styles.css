@@ -15,5 +15,5 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color), #22272e;
 }
