@@ -15,5 +15,7 @@
 }
 
 body {
-  background-color: var(--bg-color), #22272e;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
 }
