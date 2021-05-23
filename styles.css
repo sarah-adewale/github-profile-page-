@@ -2,6 +2,10 @@
 
 :root {
   --bg-color: #22272e;
+  --nav-bg-color: #2d333b;
+  --p-color: #cdd9e5;
+  --h1-color: #5a7fff;
+  --button-color: #347d39;
 }
 
 * {
