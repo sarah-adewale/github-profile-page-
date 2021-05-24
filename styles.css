@@ -24,6 +24,7 @@ body {
 nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   position: absolute;
   width: 100%;
   height: 65.75px;
@@ -127,15 +128,23 @@ nav a {
   bottom: 19.23%;
 }
 
+.right-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 .alert {
+  display: flex;
   position: absolute;
   width: 15.75px;
   height: 18px;
-  left: 1242.21px;
+  left: 1282.21px;
   top: 25.66px;
 }
 
 .insert {
+  display: flex;
   position: absolute;
   left: 92%;
   right: 6.91%;
@@ -144,6 +153,7 @@ nav a {
 }
 
 .dropdown {
+  display: flex;
   position: absolute;
   left: 93.39%;
   right: 5.92%;
@@ -152,19 +162,30 @@ nav a {
 }
 
 .avatar {
+  display: flex;
   position: absolute;
   width: 22.64px;
   height: 22.64px;
-  left: 1331.84px;
+  left: 1371.84px;
   top: 22.34px;
 }
 
 .avatar-dropdown {
+  display: flex;
   position: absolute;
   left: 97.13%;
   right: 2.39%;
   top: 47.8%;
   bottom: 45.42%;
+}
+
+.second-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 57.91px;
+  left: 0;
+  top: 101.31px;
 }
 /* .container {
   display: grid;
