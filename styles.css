@@ -2676,7 +2676,9 @@ footer img {
 }
 
 /* media queries */
-@media screen and (max-device-width: 1140px), (max-device-width: 1280px) {
+@media screen and (max-device-width: 1140px),
+  (max-device-width: 1280px),
+  (max-device-width: 1380px) {
   :root {
     --bg-color: #22272e;
     --nav-bg-color: #2d333b;
