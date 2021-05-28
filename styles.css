@@ -154,9 +154,9 @@ nav a:hover {
   display: flex;
   position: absolute;
   left: 1328.84px;
-  right: 6.91%;
-  top: 42.83%;
-  bottom: 37.4%;
+  /* right: 6.91%; */
+  top: 25.66px;
+  /* bottom: 37.4%; */
 }
 
 .avatar {
@@ -183,10 +183,10 @@ nav a:hover {
   position: absolute;
   width: 160px;
   height: 16px;
-  left: 29.3%;
-  right: 69.52%;
+  left: 420px;
+  /* right: 69.52%; */
   top: 120px;
-  bottom: 34.75%;
+  /* bottom: 34.75%; */
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -267,10 +267,10 @@ nav a:hover {
 
 .projects {
   position: absolute;
-  left: 50.14%;
-  right: 48.82%;
+  left: 715px;
+  /* right: 48.82%; */
   top: 120px;
-  bottom: 32.24%;
+  /* bottom: 32.24%; */
   width: 94px;
   height: 16px;
 
@@ -302,10 +302,10 @@ nav a:hover {
   position: absolute;
   width: 162px;
   height: 16px;
-  left: 57.83%;
-  right: 41.06%;
+  left: 830px;
+  /* right: 41.06%; */
   top: 120px;
-  bottom: 29.43%;
+  /* bottom: 29.43%; */
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -2832,10 +2832,10 @@ footer img {
   .insert {
     display: flex;
     position: absolute;
-    left: 90%;
-    right: 6.91%;
+    left: 1155px;
+    /* right: 6.91%; */
     top: 42.83%;
-    bottom: 37.4%;
+    /* bottom: 37.4%; */
   }
 
   .avatar {
