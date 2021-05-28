@@ -5351,7 +5351,7 @@ footer img {
   }
 }
 
-@media screen and (max-device-width: 1380px) {
+/* @media screen and (max-device-width: 1380px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -5408,7 +5408,7 @@ footer img {
     left: 85.87px;
     top: 17.46px;
 
-    /* Background */
+
 
     background: var(--bg-color);
 
@@ -5431,7 +5431,7 @@ footer img {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    /* identical to box height */
+
 
     letter-spacing: 0.03em;
     text-align: center;
@@ -5484,5 +5484,5 @@ footer img {
     top: 22.34px;
   }
 
-  /* nav ends */
-}
+
+} */
