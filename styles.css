@@ -152,14 +152,14 @@ nav a:hover {
   position: absolute;
   width: 15.75px;
   height: 18px;
-  left: 1292.21px;
+  left: 89.5%;
   top: 25.66px;
 }
 
 .insert {
   display: flex;
   position: absolute;
-  left: 1328.84px;
+  left: 92%;
   /* right: 6.91%; */
   top: 25.66px;
   /* bottom: 37.4%; */
@@ -169,7 +169,7 @@ nav a:hover {
   display: flex;
   position: absolute;
 
-  left: 1371.84px;
+  left: 95%;
   top: 22.34px;
 }
 
@@ -180,6 +180,7 @@ nav a:hover {
 .second-nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   width: 100%;
   margin: 120px 0px;
@@ -189,7 +190,7 @@ nav a:hover {
   position: absolute;
   width: 160px;
   height: 16px;
-  left: 420px;
+  left: 31%;
   /* right: 69.52%; */
   top: 120px;
   /* bottom: 34.75%; */
@@ -221,7 +222,7 @@ nav a:hover {
   position: absolute;
   width: 113.2px;
   height: 17.46px;
-  left: 543.3px;
+  left: 41%;
   top: 120px;
   font-family: Arial;
   font-style: normal;
@@ -273,10 +274,10 @@ nav a:hover {
 
 .projects {
   position: absolute;
-  left: 715px;
-  /* right: 48.82%; */
+  left: 55%;
+
   top: 120px;
-  /* bottom: 32.24%; */
+
   width: 94px;
   height: 16px;
 
@@ -308,7 +309,7 @@ nav a:hover {
   position: absolute;
   width: 162px;
   height: 16px;
-  left: 830px;
+  left: 65%;
   /* right: 41.06%; */
   top: 120px;
   /* bottom: 29.43%; */
@@ -340,7 +341,7 @@ nav a:hover {
   position: absolute;
   width: 29.87px;
   height: 29.87px;
-  left: 1324.35px;
+  left: 91%;
   top: 100px;
 }
 
@@ -348,7 +349,7 @@ nav a:hover {
   position: absolute;
   width: 40.14px;
   height: 17.19px;
-  left: 1319.22px;
+  left: 90.7%;
   top: 140px;
 }
 
@@ -368,14 +369,15 @@ nav a:hover {
 .display-photo {
   position: absolute;
   margin: -150px 80px;
+  /* margin: -150px 5%; */
 }
 
 .smiley {
   position: absolute;
   width: 39px;
   height: 39px;
-  left: 340px;
-  top: 360px;
+  left: 320px;
+  top: 363px;
 }
 
 .profile-name {
@@ -598,23 +600,26 @@ nav a:hover {
 .repo-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .find-repo {
   position: absolute;
-  width: 547.58px;
+  width: 58%;
   height: 33.49px;
-  left: 410px;
+  left: 430.13px;
   top: 175px;
 
   background-color: var(--bg-color);
   border: 1px solid var(--color-gray-1);
   box-sizing: border-box;
   border-radius: 5px;
+  z-index: -1;
 }
 
 .find-repo::placeholder {
+  display: flex;
   position: absolute;
   width: 123px;
   height: 16px;
@@ -634,32 +639,7 @@ nav a:hover {
 }
 
 .type-btn {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  padding: 9px 17px;
-
-  position: absolute;
-  width: 84px;
-  height: 34px;
-  left: 964.63px;
-  top: 175px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-  color: var(--text-color-gray-1);
-
-  background: var(--color-gray-1);
-
-  border: 1px solid var(--color-gray-3);
-  box-sizing: border-box;
-  border-radius: 5px;
+  display: none;
 }
 
 .type-btn > img {
@@ -667,33 +647,7 @@ nav a:hover {
 }
 
 .language-btn {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  padding: 9px 17px;
-
-  position: absolute;
-  width: 119px;
-  height: 34px;
-  left: 1055px;
-  top: 175px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: var(--text-color-gray-1);
-
-  background: var(--color-gray-1);
-
-  border: 1px solid var(--color-gray-3);
-  box-sizing: border-box;
-  border-radius: 5px;
+  display: none;
 }
 
 .language-btn > img {
@@ -701,32 +655,7 @@ nav a:hover {
 }
 
 .sort-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 9px 17px;
-
-  position: absolute;
-  width: 82px;
-  height: 34px;
-  left: 1180px;
-  top: 175px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: var(--text-color-gray-1);
-
-  background: var(--color-gray-1);
-
-  border: 1px solid var(--color-gray-3);
-  box-sizing: border-box;
-  border-radius: 5px;
+  display: none;
 }
 
 .sort-btn > img {
@@ -734,31 +663,7 @@ nav a:hover {
 }
 
 .new-btn {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  padding: 9px 17px;
-
-  position: absolute;
-  width: 90px;
-  height: 35.46px;
-  left: 1268px;
-  top: 175px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: var(--color-white);
-  background: var(--color-green-1);
-  border: 1px solid var(--color-green-2);
-  box-sizing: border-box;
-  border-radius: 8px;
+  display: none;
 }
 
 .new-btn > img {
@@ -767,19 +672,20 @@ nav a:hover {
 
 .horizontal-line-2 {
   position: absolute;
-  width: 945.63px;
+  width: 60%;
+  left: 430.13px;
   height: 0px;
-  left: 410.93px;
   top: 228.68px;
 
   border: 1px solid var(--color-gray-1);
+  z-index: -1;
 }
 
 .google-homepage {
   position: absolute;
   width: 185px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 260.8px;
 
   font-family: Helvetica;
@@ -792,6 +698,7 @@ nav a:hover {
   letter-spacing: 0.03em;
 
   color: var(--text-color-blue);
+  z-index: -1;
 }
 
 .google-homepage:hover {
@@ -804,7 +711,7 @@ nav a:hover {
   position: absolute;
   width: 112.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 302.89px;
   font-family: Arial;
   font-style: normal;
@@ -825,7 +732,7 @@ nav a:hover {
   position: absolute;
   width: 109px;
   height: 14px;
-  left: 482.57px;
+  left: 500px;
   top: 304.89px;
 
   font-family: Arial;
@@ -850,7 +757,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 255px;
   font-family: Arial;
   font-style: normal;
@@ -876,9 +783,9 @@ nav a:hover {
 
 .horizontal-line-3 {
   position: absolute;
-  width: 945.63px;
+  width: 60%;
   height: 0px;
-  left: 410.93px;
+  left: 430.13px;
   top: 357px;
   border: 1px solid var(--color-gray-1);
 }
@@ -887,7 +794,7 @@ nav a:hover {
   position: absolute;
   width: 109px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 389.12px;
 
   font-family: Helvetica;
@@ -912,7 +819,7 @@ nav a:hover {
   position: absolute;
   width: 219px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 419.79px;
 
   font-family: Arial;
@@ -931,7 +838,7 @@ nav a:hover {
   position: absolute;
   width: 319px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 444.79px;
 
   font-family: Arial;
@@ -950,7 +857,7 @@ nav a:hover {
   position: absolute;
   width: 64.32px;
   height: 14.32px;
-  left: 416.24px;
+  left: 430.13px;
   top: 483.77px;
   font-family: Arial;
   font-style: normal;
@@ -969,7 +876,7 @@ nav a:hover {
   position: absolute;
   width: 64.32px;
   height: 14.32px;
-  left: 484.83px;
+  left: 500.83px;
   top: 482.58px;
   font-family: Arial;
   font-style: normal;
@@ -989,7 +896,7 @@ nav a:hover {
   position: absolute;
   width: 117px;
   height: 15px;
-  left: 550.85px;
+  left: 566.85px;
   top: 487.77px;
 
   font-family: Arial;
@@ -1011,7 +918,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 396px;
   font-family: Arial;
   font-style: normal;
@@ -1036,9 +943,10 @@ nav a:hover {
 
 .horizontal-line-4 {
   position: absolute;
-  width: 945.63px;
+
   height: 0px;
-  left: 410.93px;
+  width: 60%;
+  left: 430.13px;
   top: 527.33px;
 
   border: 1px solid var(--color-gray-1);
@@ -1048,7 +956,7 @@ nav a:hover {
   position: absolute;
   width: 76px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 559.45px;
 
   font-family: Helvetica;
@@ -1073,7 +981,7 @@ nav a:hover {
   position: absolute;
   width: 114px;
   height: 14px;
-  left: 414.93px;
+  left: 430.13px;
   top: 601.54px;
 
   font-family: Arial;
@@ -1098,7 +1006,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 553.65px;
   font-family: Arial;
   font-style: normal;
@@ -1124,9 +1032,8 @@ nav a:hover {
 
 .horizontal-line-5 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 410.93px;
+  width: 60%;
+  left: 430.13px;
   top: 655.65px;
 
   border: 1px solid var(--color-gray-1);
@@ -1136,7 +1043,7 @@ nav a:hover {
   position: absolute;
   width: 105px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 687.77px;
 
   font-family: Helvetica;
@@ -1161,7 +1068,7 @@ nav a:hover {
   position: absolute;
   width: 52.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 729.86px;
   font-family: Arial;
   font-style: normal;
@@ -1181,7 +1088,7 @@ nav a:hover {
   position: absolute;
   width: 216px;
   height: 14px;
-  left: 480.57px;
+  left: 500.57px;
   top: 732.86px;
 
   font-family: Arial;
@@ -1206,7 +1113,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 681.97px;
   font-family: Arial;
   font-style: normal;
@@ -1232,9 +1139,8 @@ nav a:hover {
 
 .horizontal-line-6 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 782.91px;
 
   border: 1px solid var(--color-gray-1);
@@ -1244,7 +1150,7 @@ nav a:hover {
   position: absolute;
   width: 200px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 815.65px;
 
   font-family: Helvetica;
@@ -1269,7 +1175,7 @@ nav a:hover {
   position: absolute;
   width: 314px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 846.32px;
 
   font-family: Arial;
@@ -1288,7 +1194,7 @@ nav a:hover {
   position: absolute;
   width: 102.76px;
   height: 12.76px;
-  left: 414.13px;
+  left: 430.13px;
   top: 879.25px;
   font-family: Arial;
   font-style: normal;
@@ -1308,7 +1214,7 @@ nav a:hover {
   position: absolute;
   width: 64.32px;
   height: 14.32px;
-  left: 507.23px;
+  left: 527.23px;
   top: 878.93px;
   font-family: Arial;
   font-style: normal;
@@ -1328,7 +1234,7 @@ nav a:hover {
   position: absolute;
   width: 124px;
   height: 15px;
-  left: 555.63px;
+  left: 575.63px;
   top: 883px;
 
   font-family: Arial;
@@ -1351,7 +1257,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 813px;
   font-family: Arial;
   font-style: normal;
@@ -1377,9 +1283,8 @@ nav a:hover {
 
 .horizontal-line-7 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 921.56px;
 
   border: 1px solid var(--color-gray-1);
@@ -1389,7 +1294,7 @@ nav a:hover {
   position: absolute;
   width: 216px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 953.68px;
 
   font-family: Helvetica;
@@ -1414,7 +1319,7 @@ nav a:hover {
   position: absolute;
   width: 262.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 995.77px;
   position: absolute;
 
@@ -1436,7 +1341,7 @@ nav a:hover {
   position: absolute;
   width: 173px;
   height: 14px;
-  left: 477.57px;
+  left: 497.57px;
   top: 999px;
 
   font-family: Arial;
@@ -1460,7 +1365,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 27.89px;
-  left: 1284px;
+  left: 85%;
   top: 947.88px;
   font-family: Arial;
   font-style: normal;
@@ -1486,9 +1391,8 @@ nav a:hover {
 
 .horizontal-line-8 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1049.62px;
 
   border: 1px solid var(--color-gray-1);
@@ -1498,7 +1402,7 @@ nav a:hover {
   position: absolute;
   width: 216px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1081.74px;
 
   font-family: Helvetica;
@@ -1522,7 +1426,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 1123.83px;
 
   font-family: Arial;
@@ -1543,7 +1447,7 @@ nav a:hover {
   position: absolute;
   width: 158px;
   height: 14px;
-  left: 477.57px;
+  left: 497.57px;
   top: 1127px;
 
   font-family: Arial;
@@ -1568,7 +1472,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1075.94px;
   font-family: Arial;
   font-style: normal;
@@ -1594,9 +1498,8 @@ nav a:hover {
 
 .horizontal-line-9 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1177.72px;
 
   border: 1px solid var(--color-gray-1);
@@ -1606,7 +1509,7 @@ nav a:hover {
   position: absolute;
   width: 235px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1210.83px;
 
   font-family: Helvetica;
@@ -1631,7 +1534,7 @@ nav a:hover {
   position: absolute;
   width: 281px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 1241.51px;
 
   font-family: Arial;
@@ -1650,7 +1553,7 @@ nav a:hover {
   position: absolute;
   width: 407px;
   height: 15px;
-  left: 414.97px;
+  left: 430.13px;
   top: 1268.44px;
 
   font-family: Arial;
@@ -1669,7 +1572,7 @@ nav a:hover {
   position: absolute;
   width: 74.32px;
   height: 14.32px;
-  left: 416.24px;
+  left: 430.13px;
   top: 1305.48px;
   font-family: Arial;
   font-style: normal;
@@ -1689,7 +1592,7 @@ nav a:hover {
   position: absolute;
   width: 102px;
   height: 15px;
-  left: 469.41px;
+  left: 489.41px;
   top: 1309.48px;
 
   font-family: Arial;
@@ -1712,7 +1615,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1217.71px;
   font-family: Arial;
   font-style: normal;
@@ -1738,9 +1641,8 @@ nav a:hover {
 
 .horizontal-line-10 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1348.1px;
 
   border: 1px solid var(--color-gray-1);
@@ -1750,7 +1652,7 @@ nav a:hover {
   position: absolute;
   width: 84px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1380.87px;
 
   font-family: Helvetica;
@@ -1775,7 +1677,7 @@ nav a:hover {
   position: absolute;
   width: 192px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 1415.34px;
 
   font-family: Arial;
@@ -1794,7 +1696,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 415.06px;
+  left: 430.13px;
   top: 1453.52px;
   font-family: Arial;
   font-style: normal;
@@ -1813,7 +1715,7 @@ nav a:hover {
   position: absolute;
   width: 112px;
   height: 15px;
-  left: 484.67px;
+  left: 430.13px;
   top: 1455.52px;
 
   font-family: Arial;
@@ -1836,7 +1738,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1378.22px;
   font-family: Arial;
   font-style: normal;
@@ -1862,9 +1764,8 @@ nav a:hover {
 
 .horizontal-line-11 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1485.78px;
   border: 1px solid var(--color-gray-1);
 }
@@ -1873,7 +1774,7 @@ nav a:hover {
   position: absolute;
   width: 257px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1528.55px;
 
   font-family: Helvetica;
@@ -1898,7 +1799,7 @@ nav a:hover {
   position: absolute;
   width: 395px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 1563.02px;
 
   font-family: Arial;
@@ -1916,7 +1817,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 415.06px;
+  left: 430.13px;
   top: 1601.2px;
   font-family: Arial;
   font-style: normal;
@@ -1936,7 +1837,7 @@ nav a:hover {
   position: absolute;
   width: 112px;
   height: 15px;
-  left: 479.67px;
+  left: 499.67px;
   top: 1603.2px;
 
   font-family: Arial;
@@ -1959,7 +1860,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1525.9px;
   font-family: Arial;
   font-style: normal;
@@ -1985,9 +1886,8 @@ nav a:hover {
 
 .horizontal-line-12 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1643.46px;
 
   /* Color 3 */
@@ -1999,7 +1899,7 @@ nav a:hover {
   position: absolute;
   width: 327px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1676.23px;
 
   font-family: Helvetica;
@@ -2024,7 +1924,7 @@ nav a:hover {
   position: absolute;
   width: 262px;
   height: 15px;
-  left: 414.23px;
+  left: 430.13px;
   top: 1710.7px;
 
   font-family: Arial;
@@ -2043,7 +1943,7 @@ nav a:hover {
   position: absolute;
   width: 82.76px;
   height: 12.76px;
-  left: 415.06px;
+  left: 430.13px;
   top: 1748.89px;
 
   font-family: Arial;
@@ -2064,7 +1964,7 @@ nav a:hover {
   position: absolute;
   width: 105px;
   height: 15px;
-  left: 485.67px;
+  left: 505.67px;
   top: 1750.88px;
 
   font-family: Arial;
@@ -2087,7 +1987,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1673.58px;
   font-family: Arial;
   font-style: normal;
@@ -2113,9 +2013,8 @@ nav a:hover {
 
 .horizontal-line-13 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1791.15px;
 
   border: 1px solid var(--color-gray-1);
@@ -2125,7 +2024,7 @@ nav a:hover {
   position: absolute;
   width: 289px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1824.26px;
 
   font-family: Helvetica;
@@ -2150,7 +2049,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 1866.35px;
   font-family: Arial;
   font-style: normal;
@@ -2170,7 +2069,7 @@ nav a:hover {
   position: absolute;
   width: 111px;
   height: 14px;
-  left: 482.96px;
+  left: 502.96px;
   top: 1868.34px;
 
   font-family: Arial;
@@ -2195,7 +2094,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1818.46px;
   font-family: Arial;
   font-style: normal;
@@ -2221,9 +2120,8 @@ nav a:hover {
 
 .horizontal-line-14 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 1919.41px;
 
   /* Color 3 */
@@ -2235,7 +2133,7 @@ nav a:hover {
   position: absolute;
   width: 71px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 1952.53px;
 
   font-family: Helvetica;
@@ -2260,7 +2158,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 1994.62px;
   font-family: Arial;
   font-style: normal;
@@ -2280,7 +2178,7 @@ nav a:hover {
   position: absolute;
   width: 110px;
   height: 14px;
-  left: 484.96px;
+  left: 504.96px;
   top: 1996.6px;
 
   font-family: Arial;
@@ -2305,7 +2203,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 1946.73px;
   font-family: Arial;
   font-style: normal;
@@ -2330,9 +2228,8 @@ nav a:hover {
 
 .horizontal-line-15 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 2047.67px;
   border: 1px solid var(--color-gray-1);
 }
@@ -2341,7 +2238,7 @@ nav a:hover {
   position: absolute;
   width: 179px;
   height: 23px;
-  left: 414.13px;
+  left: 430.13px;
   top: 2080.79px;
 
   font-family: Helvetica;
@@ -2366,7 +2263,7 @@ nav a:hover {
   position: absolute;
   width: 62.76px;
   height: 12.76px;
-  left: 414.97px;
+  left: 430.13px;
   top: 2122.88px;
   font-family: Arial;
   font-style: normal;
@@ -2386,7 +2283,7 @@ nav a:hover {
   position: absolute;
   width: 148px;
   height: 14px;
-  left: 490.52px;
+  left: 500.52px;
   top: 2125.88px;
 
   font-family: Arial;
@@ -2411,7 +2308,7 @@ nav a:hover {
   position: absolute;
   width: 72.64px;
   height: 29px;
-  left: 1284px;
+  left: 85%;
   top: 2074.99px;
   font-family: Arial;
   font-style: normal;
@@ -2436,9 +2333,8 @@ nav a:hover {
 
 .horizontal-line-16 {
   position: absolute;
-  width: 945.63px;
-  height: 0px;
-  left: 414.93px;
+  width: 60%;
+  left: 430.13px;
   top: 2175.94px;
   border: 1px solid #373e47;
 }
@@ -2451,7 +2347,7 @@ footer {
 
 .horizontal-line-17 {
   position: absolute;
-  width: 1331.69px;
+  width: 95%;
   height: 0px;
   left: 50px;
   align-items: center;
@@ -2462,9 +2358,9 @@ footer {
 
 .footer-text {
   position: absolute;
-  width: 99px;
+  width: 149px;
   height: 14px;
-  left: 50px;
+  left: 4%;
   top: 2275px;
 
   font-family: Arial;
@@ -2513,7 +2409,7 @@ footer img {
   position: absolute;
   width: 33px;
   height: 14px;
-  left: 194.91px;
+  left: 15%;
   top: 2275px;
 
   font-family: Arial;
@@ -2527,7 +2423,7 @@ footer img {
   position: absolute;
   width: 40px;
   height: 14px;
-  left: 280.24px;
+  left: 20%;
   top: 2275px;
 
   font-family: Arial;
@@ -2541,7 +2437,7 @@ footer img {
   position: absolute;
   width: 44px;
   height: 14px;
-  left: 372.57px;
+  left: 25%;
   top: 2275px;
 
   font-family: Arial;
@@ -2555,7 +2451,7 @@ footer img {
   position: absolute;
   width: 35px;
   height: 14px;
-  left: 468.91px;
+  left: 31%;
   top: 2275px;
 
   font-family: Arial;
@@ -2569,7 +2465,7 @@ footer img {
   position: absolute;
   width: 28px;
   height: 14px;
-  left: 558.72px;
+  left: 37%;
   top: 2275px;
 
   font-family: Arial;
@@ -2583,7 +2479,7 @@ footer img {
   position: absolute;
   width: 84px;
   height: 14px;
-  left: 827.85px;
+  left: 60%;
   top: 2275px;
 
   font-family: Arial;
@@ -2600,7 +2496,7 @@ footer img {
   position: absolute;
   width: 41px;
   height: 14px;
-  left: 975.59px;
+  left: 70%;
   top: 2275px;
 
   font-family: Arial;
@@ -2617,7 +2513,7 @@ footer img {
   position: absolute;
   width: 20px;
   height: 14px;
-  left: 1074.05px;
+  left: 76%;
   top: 2275px;
 
   font-family: Arial;
@@ -2634,7 +2530,7 @@ footer img {
   position: absolute;
   width: 45px;
   height: 14px;
-  left: 1155.25px;
+  left: 81%;
   top: 2275px;
 
   font-family: Arial;
@@ -2651,7 +2547,7 @@ footer img {
   position: absolute;
   width: 25px;
   height: 14px;
-  left: 1261.45px;
+  left: 88%;
   top: 2275px;
 
   font-family: Arial;
@@ -2668,7 +2564,7 @@ footer img {
   position: absolute;
   width: 33px;
   height: 14px;
-  left: 1347.65px;
+  left: 94%;
   top: 2275px;
 
   font-family: Arial;
@@ -2682,9 +2578,7 @@ footer img {
 }
 
 /* media queries */
-@media screen and (max-device-width: 1140px),
-  (max-device-width: 1280px),
-  (max-device-width: 1380px) {
+@media screen and (max-device-width: 1280px) {
   :root {
     --bg-color: #22272e;
     --nav-bg-color: #2d333b;
@@ -2864,12 +2758,12 @@ footer img {
 
   .overview {
     position: absolute;
-    width: 120px;
+    width: 160px;
     height: 16px;
-    left: 353.3px;
-
+    left: 35%;
+    /* right: 69.52%; */
     top: 120px;
-
+    /* bottom: 34.75%; */
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -2898,7 +2792,7 @@ footer img {
     position: absolute;
     width: 113.2px;
     height: 17.46px;
-    left: 470px;
+    left: 45%;
     top: 120px;
     font-family: Arial;
     font-style: normal;
@@ -2950,7 +2844,7 @@ footer img {
 
   .projects {
     position: absolute;
-    left: 630px;
+    left: 59%;
 
     top: 120px;
 
@@ -2983,12 +2877,12 @@ footer img {
 
   .packages {
     position: absolute;
-    width: 120px;
+    width: 162px;
     height: 16px;
-    left: 740px;
-
+    left: 69%;
+    /* right: 41.06%; */
     top: 120px;
-
+    /* bottom: 29.43%; */
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -3280,7 +3174,7 @@ footer img {
 
   .find-repo {
     position: absolute;
-    width: 420px;
+    width: 58%;
     height: 33.49px;
     left: 410px;
     top: 175px;
@@ -3311,32 +3205,7 @@ footer img {
   }
 
   .type-btn {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    padding: 9px 17px;
-
-    position: absolute;
-    width: 84px;
-    height: 34px;
-    left: 844.63px;
-    top: 175px;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-    color: var(--text-color-gray-1);
-
-    background: var(--color-gray-1);
-
-    border: 1px solid var(--color-gray-3);
-    box-sizing: border-box;
-    border-radius: 5px;
+    display: none;
   }
 
   .type-btn > img {
@@ -3344,33 +3213,7 @@ footer img {
   }
 
   .language-btn {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    padding: 9px 17px;
-
-    position: absolute;
-    width: 119px;
-    height: 34px;
-    left: 935px;
-    top: 175px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: var(--text-color-gray-1);
-
-    background: var(--color-gray-1);
-
-    border: 1px solid var(--color-gray-3);
-    box-sizing: border-box;
-    border-radius: 5px;
+    display: none;
   }
 
   .language-btn > img {
@@ -3378,32 +3221,7 @@ footer img {
   }
 
   .sort-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 9px 17px;
-
-    position: absolute;
-    width: 82px;
-    height: 34px;
-    left: 1060px;
-    top: 175px;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: var(--text-color-gray-1);
-
-    background: var(--color-gray-1);
-
-    border: 1px solid var(--color-gray-3);
-    box-sizing: border-box;
-    border-radius: 5px;
+    display: none;
   }
 
   .sort-btn > img {
@@ -3411,31 +3229,7 @@ footer img {
   }
 
   .new-btn {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    padding: 9px 17px;
-
-    position: absolute;
-    width: 90px;
-    height: 35.46px;
-    left: 1148px;
-    top: 175px;
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: var(--color-white);
-    background: var(--color-green-1);
-    border: 1px solid var(--color-green-2);
-    box-sizing: border-box;
-    border-radius: 8px;
+    display: none;
   }
 
   .new-btn > img {
@@ -3444,7 +3238,7 @@ footer img {
 
   .horizontal-line-2 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 410.93px;
     top: 228.68px;
@@ -3527,7 +3321,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 255px;
     font-family: Arial;
     font-style: normal;
@@ -3553,7 +3347,7 @@ footer img {
 
   .horizontal-line-3 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 410.93px;
     top: 357px;
@@ -3688,7 +3482,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 396px;
     font-family: Arial;
     font-style: normal;
@@ -3713,7 +3507,7 @@ footer img {
 
   .horizontal-line-4 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 410.93px;
     top: 527.33px;
@@ -3775,7 +3569,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 553.65px;
     font-family: Arial;
     font-style: normal;
@@ -3801,7 +3595,7 @@ footer img {
 
   .horizontal-line-5 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 410.93px;
     top: 655.65px;
@@ -3883,7 +3677,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 681.97px;
     font-family: Arial;
     font-style: normal;
@@ -3909,7 +3703,7 @@ footer img {
 
   .horizontal-line-6 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 782.91px;
@@ -4028,7 +3822,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 813px;
     font-family: Arial;
     font-style: normal;
@@ -4054,7 +3848,7 @@ footer img {
 
   .horizontal-line-7 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 921.56px;
@@ -4137,7 +3931,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 27.89px;
-    left: 1164px;
+    left: 86.5%;
     top: 947.88px;
     font-family: Arial;
     font-style: normal;
@@ -4163,7 +3957,7 @@ footer img {
 
   .horizontal-line-8 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1049.62px;
@@ -4245,7 +4039,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1075.94px;
     font-family: Arial;
     font-style: normal;
@@ -4271,7 +4065,7 @@ footer img {
 
   .horizontal-line-9 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1177.72px;
@@ -4389,7 +4183,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1217.71px;
     font-family: Arial;
     font-style: normal;
@@ -4415,7 +4209,7 @@ footer img {
 
   .horizontal-line-10 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1348.1px;
@@ -4513,7 +4307,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1378.22px;
     font-family: Arial;
     font-style: normal;
@@ -4539,7 +4333,7 @@ footer img {
 
   .horizontal-line-11 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1485.78px;
@@ -4636,7 +4430,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1525.9px;
     font-family: Arial;
     font-style: normal;
@@ -4662,7 +4456,7 @@ footer img {
 
   .horizontal-line-12 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1643.46px;
@@ -4764,7 +4558,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1673.58px;
     font-family: Arial;
     font-style: normal;
@@ -4790,7 +4584,7 @@ footer img {
 
   .horizontal-line-13 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1791.15px;
@@ -4872,7 +4666,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1818.46px;
     font-family: Arial;
     font-style: normal;
@@ -4898,7 +4692,7 @@ footer img {
 
   .horizontal-line-14 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 1919.41px;
@@ -4982,7 +4776,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 1946.73px;
     font-family: Arial;
     font-style: normal;
@@ -5007,7 +4801,7 @@ footer img {
 
   .horizontal-line-15 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 2047.67px;
@@ -5088,7 +4882,7 @@ footer img {
     position: absolute;
     width: 72.64px;
     height: 29px;
-    left: 1164px;
+    left: 86.5%;
     top: 2074.99px;
     font-family: Arial;
     font-style: normal;
@@ -5113,7 +4907,7 @@ footer img {
 
   .horizontal-line-16 {
     position: absolute;
-    width: 825.63px;
+    width: 60%;
     height: 0px;
     left: 414.93px;
     top: 2175.94px;
@@ -5128,7 +4922,7 @@ footer img {
 
   .horizontal-line-17 {
     position: absolute;
-    width: 1200px;
+    width: 92%;
     height: 0px;
     left: 50px;
     align-items: center;
@@ -5139,7 +4933,7 @@ footer img {
 
   .footer-text {
     position: absolute;
-    width: 99px;
+    width: 149px;
     height: 14px;
     left: 50px;
     top: 2275px;
@@ -5414,7 +5208,7 @@ footer img {
     position: absolute;
     width: 58px;
     height: 58px;
-    left: -65px;
+    left: -55px;
     top: 222px;
     background-image: url(images/icons/mobile-avatar.png);
     background-repeat: no-repeat;
@@ -5424,7 +5218,7 @@ footer img {
     position: absolute;
     width: 38px;
     height: 21px;
-    left: 10px;
+    left: 20px;
     top: -99px;
 
     font-family: Arial;
@@ -5443,7 +5237,7 @@ footer img {
     position: absolute;
     width: 94px;
     height: 16px;
-    left: 10px;
+    left: 20px;
     top: -109px;
 
     font-family: Arial;
@@ -5465,7 +5259,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 34px;
-    left: 12px;
+    left: 22px;
     top: 147px;
     background: var(--bg-color);
     border: 1px solid #373e47;
@@ -5493,7 +5287,7 @@ footer img {
     position: absolute;
     width: 14px;
     height: 14px;
-    left: 17px;
+    left: 28px;
     top: 155px;
   }
 
@@ -5507,7 +5301,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 37px;
-    left: -68px;
+    left: -58px;
     top: -60px;
     background: #373e47;
     border: 0.5px solid #444c56;
@@ -5529,7 +5323,7 @@ footer img {
 
   .link-image {
     position: absolute;
-    left: 15px;
+    left: 25px;
     right: 94.19%;
     top: 240px;
     bottom: 88.87%;
@@ -5539,7 +5333,7 @@ footer img {
     position: absolute;
     width: 126px;
     height: 10px;
-    left: 48px;
+    left: 58px;
     top: 240px;
 
     font-family: Arial;
@@ -5572,7 +5366,7 @@ footer img {
   .follow-icon {
     position: absolute;
 
-    left: -66px;
+    left: -56px;
     top: -38.07px;
   }
 
@@ -5580,7 +5374,7 @@ footer img {
     position: absolute;
     width: 56px;
     height: 11px;
-    left: -62px;
+    left: -52px;
     top: -35px;
 
     font-family: Arial;
@@ -5599,7 +5393,7 @@ footer img {
     position: absolute;
     width: 89px;
     height: 11px;
-    left: 10px;
+    left: 20px;
 
     font-family: Arial;
     font-style: normal;
@@ -5617,7 +5411,7 @@ footer img {
     position: absolute;
     width: 6px;
     height: 11px;
-    left: -80px;
+    left: -65px;
     top: -35px;
     font-family: Arial;
     font-style: normal;
@@ -5633,7 +5427,7 @@ footer img {
     position: absolute;
     width: 94px;
     height: 11px;
-    left: 10px;
+    left: 20px;
     top: 0px;
 
     font-family: Arial;
@@ -5652,7 +5446,7 @@ footer img {
     position: absolute;
     width: 15.47px;
     height: 14.61px;
-    left: -97px;
+    left: -77px;
     top: -38px;
   }
 
@@ -5660,7 +5454,7 @@ footer img {
     position: absolute;
     width: 6px;
     height: 11px;
-    left: -99px;
+    left: -79px;
     top: -34px;
 
     font-family: Arial;
@@ -5827,8 +5621,18 @@ footer img {
     position: absolute;
     width: 90%;
     height: 35px;
-    left: 12px;
+    left: 22px;
     top: 355px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+
+    /* white */
+
+    color: #ffffff;
 
     background: #347d39;
     border: 0.5px solid #46954a;
@@ -5840,7 +5644,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 35.31px;
-    left: 12px;
+    left: 22px;
     top: 415px;
 
     background: #24292f;
@@ -5879,8 +5683,18 @@ footer img {
     position: absolute;
     width: 84px;
     height: 34px;
-    left: 12px;
+    left: 22px;
     top: 459px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+
+    /* Color 1 */
+
+    color: #cdd9e5;
 
     /* Color 3 */
 
@@ -5902,8 +5716,18 @@ footer img {
     position: absolute;
     width: 119px;
     height: 34px;
-    left: 103px;
+    left: 113px;
     top: 459px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+
+    /* Color 1 */
+
+    color: #cdd9e5;
 
     /* Color 3 */
 
@@ -5925,8 +5749,18 @@ footer img {
     position: absolute;
     width: 119px;
     height: 34px;
-    left: 230px;
+    left: 240px;
     top: 459px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+
+    /* Color 1 */
+
+    color: #cdd9e5;
 
     /* Color 3 */
 
@@ -5942,7 +5776,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 11.53px;
+    left: 21.53px;
     top: 520px;
 
     /* Color 5 */
@@ -5954,7 +5788,7 @@ footer img {
     position: absolute;
     width: 173px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 550px;
 
     font-family: Helvetica;
@@ -5975,7 +5809,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 580px;
 
     font-family: Arial;
@@ -5993,7 +5827,7 @@ footer img {
     position: absolute;
     width: 122px;
     height: 10px;
-    left: 73.64px;
+    left: 83.64px;
     top: 585px;
 
     font-family: Arial;
@@ -6035,7 +5869,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 640px;
 
     /* Color 5 */
@@ -6047,7 +5881,7 @@ footer img {
     position: absolute;
     width: 73px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 670.45px;
 
     font-family: Helvetica;
@@ -6066,7 +5900,7 @@ footer img {
     position: absolute;
     width: 219.79px;
     height: 9.92px;
-    left: 12px;
+    left: 22px;
     top: 700px;
 
     font-family: Arial;
@@ -6085,7 +5919,7 @@ footer img {
     position: absolute;
     width: 193.89px;
     height: 27.72px;
-    left: 12px;
+    left: 22px;
     top: 720px;
 
     font-family: Arial;
@@ -6104,7 +5938,7 @@ footer img {
     position: absolute;
     width: 59.34px;
     height: 9.34px;
-    left: 12px;
+    left: 22px;
     top: 770px;
     font-family: Arial;
     font-style: normal;
@@ -6179,7 +6013,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 820px;
 
     /* Color 5 */
@@ -6191,7 +6025,7 @@ footer img {
     position: absolute;
     width: 51px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 860px;
 
     font-family: Helvetica;
@@ -6212,7 +6046,7 @@ footer img {
     position: absolute;
     width: 184px;
     height: 10px;
-    left: 12px;
+    left: 22px;
     top: 890px;
 
     font-family: Arial;
@@ -6249,7 +6083,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 940px;
 
     /* Color 5 */
@@ -6261,7 +6095,7 @@ footer img {
     position: absolute;
     width: 121px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 971.7px;
 
     font-family: Helvetica;
@@ -6282,7 +6116,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1000px;
   }
 
@@ -6290,7 +6124,7 @@ footer img {
     position: absolute;
     width: 137px;
     height: 10px;
-    left: 73.64px;
+    left: 83.64px;
     top: 1005px;
 
     font-family: Arial;
@@ -6332,7 +6166,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1060.67px;
 
     /* Color 5 */
@@ -6344,7 +6178,7 @@ footer img {
     position: absolute;
     width: 183px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1089.29px;
 
     font-family: Helvetica;
@@ -6361,16 +6195,16 @@ footer img {
 
   .js-lessons-details {
     position: absolute;
-    width: 299.79px;
+    width: 249.79px;
     height: 9.92px;
-    left: 12px;
+    left: 22px;
     top: 1119px;
 
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 10px;
+    line-height: 15px;
     letter-spacing: 0.015em;
 
     /* color 6 */
@@ -6382,8 +6216,8 @@ footer img {
     position: absolute;
     width: 109px;
     height: 9px;
-    left: 12px;
-    top: 1145px;
+    left: 22px;
+    top: 1158px;
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -6399,8 +6233,8 @@ footer img {
     position: absolute;
     width: 59.34px;
     height: 9.34px;
-    left: 101.52px;
-    top: 1145px;
+    left: 121.52px;
+    top: 1158px;
 
     font-family: Arial;
     font-style: normal;
@@ -6417,8 +6251,8 @@ footer img {
     position: absolute;
     width: 188px;
     height: 10px;
-    left: 148.21px;
-    top: 1151px;
+    left: 168.21px;
+    top: 1163px;
 
     font-family: Arial;
     font-style: normal;
@@ -6459,7 +6293,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1200px;
 
     /* Color 5 */
@@ -6471,7 +6305,7 @@ footer img {
     position: absolute;
     width: 166px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1230px;
 
     font-family: Helvetica;
@@ -6490,7 +6324,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1260px;
     font-family: Arial;
     font-style: normal;
@@ -6507,7 +6341,7 @@ footer img {
     position: absolute;
     width: 129px;
     height: 10px;
-    left: 73.64px;
+    left: 63.64px;
     top: 1265px;
 
     font-family: Arial;
@@ -6549,7 +6383,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1320px;
 
     /* Color 5 */
@@ -6561,7 +6395,7 @@ footer img {
     position: absolute;
     width: 160px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1345px;
 
     font-family: Helvetica;
@@ -6580,7 +6414,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1375px;
     font-family: Arial;
     font-style: normal;
@@ -6597,7 +6431,7 @@ footer img {
     position: absolute;
     width: 129px;
     height: 10px;
-    left: 73.64px;
+    left: 83.64px;
     top: 1380px;
 
     font-family: Arial;
@@ -6637,7 +6471,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1440px;
 
     /* Color 5 */
@@ -6649,7 +6483,7 @@ footer img {
     position: absolute;
     width: 176px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1465px;
 
     font-family: Helvetica;
@@ -6670,7 +6504,7 @@ footer img {
     position: absolute;
     width: 309.79px;
     height: 9.92px;
-    left: 12px;
+    left: 22px;
     top: 1495px;
 
     font-family: Arial;
@@ -6689,7 +6523,7 @@ footer img {
     position: absolute;
     width: 229.72px;
     height: 30.39px;
-    left: 12px;
+    left: 22px;
     top: 1515px;
 
     font-family: Arial;
@@ -6708,7 +6542,7 @@ footer img {
     position: absolute;
     width: 59.34px;
     height: 9.34px;
-    left: 12px;
+    left: 22px;
     top: 1560px;
     font-family: Arial;
     font-style: normal;
@@ -6726,7 +6560,7 @@ footer img {
     position: absolute;
     width: 131.01px;
     height: 9.92px;
-    left: 64.65px;
+    left: 74.65px;
     top: 1567px;
 
     font-family: Arial;
@@ -6768,7 +6602,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1617px;
 
     /* Color 5 */
@@ -6780,7 +6614,7 @@ footer img {
     position: absolute;
     width: 57px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1637px;
 
     font-family: Helvetica;
@@ -6796,7 +6630,7 @@ footer img {
     position: absolute;
     width: 188.44px;
     height: 13.86px;
-    left: 12px;
+    left: 22px;
     top: 1665px;
 
     font-family: Arial;
@@ -6812,7 +6646,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1695.33px;
     font-family: Arial;
     font-style: normal;
@@ -6827,7 +6661,7 @@ footer img {
     position: absolute;
     width: 129px;
     height: 10px;
-    left: 81.4px;
+    left: 91.4px;
     top: 1700.33px;
 
     font-family: Arial;
@@ -6869,7 +6703,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1750px;
 
     /* Color 5 */
@@ -6881,7 +6715,7 @@ footer img {
     position: absolute;
     width: 157px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1770px;
 
     font-family: Helvetica;
@@ -6902,7 +6736,7 @@ footer img {
     position: absolute;
     width: 249.72px;
     height: 30.39px;
-    left: 12px;
+    left: 22px;
     top: 1795px;
 
     font-family: Arial;
@@ -6921,7 +6755,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1835px;
     font-family: Arial;
     font-style: normal;
@@ -6938,7 +6772,7 @@ footer img {
     position: absolute;
     width: 124px;
     height: 10px;
-    left: 74.37px;
+    left: 84.37px;
     top: 1840px;
 
     font-family: Arial;
@@ -6980,7 +6814,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 1890px;
     border: 1px solid #444c56;
   }
@@ -6989,7 +6823,7 @@ footer img {
     position: absolute;
     width: 258px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 1910px;
     font-family: Helvetica;
     font-style: normal;
@@ -7004,7 +6838,7 @@ footer img {
     position: absolute;
     width: 188.44px;
     height: 13.86px;
-    left: 12px;
+    left: 22px;
     top: 1935px;
     font-family: Arial;
     font-style: normal;
@@ -7022,7 +6856,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 1965px;
     position: absolute;
 
@@ -7041,7 +6875,7 @@ footer img {
     position: absolute;
     width: 174px;
     height: 10px;
-    left: 81.4px;
+    left: 91.4px;
     top: 1969px;
 
     font-family: Arial;
@@ -7086,7 +6920,7 @@ footer img {
     position: absolute;
     width: 178px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 2030px;
 
     font-family: Helvetica;
@@ -7107,7 +6941,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 2060px;
     font-family: Arial;
     font-style: normal;
@@ -7124,7 +6958,7 @@ footer img {
     position: absolute;
     width: 129px;
     height: 10px;
-    left: 81.4px;
+    left: 91.4px;
     top: 2065px;
 
     font-family: Arial;
@@ -7166,7 +7000,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 2135px;
 
     /* Color 5 */
@@ -7178,7 +7012,7 @@ footer img {
     position: absolute;
     width: 49px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 2155px;
 
     font-family: Helvetica;
@@ -7199,7 +7033,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 2185px;
     font-family: Arial;
     font-style: normal;
@@ -7216,7 +7050,7 @@ footer img {
     position: absolute;
     width: 128px;
     height: 10px;
-    left: 81.4px;
+    left: 91.4px;
     top: 2188px;
 
     font-family: Arial;
@@ -7258,7 +7092,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 2248px;
 
     /* Color 5 */
@@ -7270,7 +7104,7 @@ footer img {
     position: absolute;
     width: 172px;
     height: 16px;
-    left: 12px;
+    left: 22px;
     top: 2270px;
 
     font-family: Helvetica;
@@ -7289,7 +7123,7 @@ footer img {
     position: absolute;
     width: 59px;
     height: 9px;
-    left: 12px;
+    left: 22px;
     top: 2300px;
 
     font-family: Arial;
@@ -7307,7 +7141,7 @@ footer img {
     position: absolute;
     width: 155px;
     height: 10px;
-    left: 79.7px;
+    left: 89.7px;
     top: 2305px;
 
     font-family: Arial;
@@ -7349,7 +7183,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     top: 2370px;
 
     /* Color 5 */
@@ -7366,7 +7200,7 @@ footer img {
     position: absolute;
     width: 90%;
     height: 0px;
-    left: 12px;
+    left: 22px;
     align-items: center;
     top: 2460px;
 
